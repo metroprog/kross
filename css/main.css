@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Poppins:400,700|Roboto&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+ul {
+	list-style: none;
+}
+body {
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+	color: black;
+	background-color: white;
+}
+
+header {
+	background: #41228e url(../img/leaf_bg.svg) no-repeat center top / cover;
+	height: 100vh;     /* высота блока всегда будет равна высоте экрана*/
+	overflow: hidden;   /*для устранения "выпадания" margin потомков*/
+}
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+header {
+	color: white;
+}
+.heading {
+	display: flex;
+	margin-top: 1.8rem;
+}
+.heading img {
+	width: 104px;
+	height: 42px;
+}
+nav {
+	margin-left: auto;	/*выровнять меню по правому краю*/
+}
+.menu {
+	text-transform: uppercase;
+	margin-top: 0.8rem;
+}
+.menu li {
+	display: inline-block;
+	margin-left: 1.6rem;
+}
+.menu li:hover {
+	font-weight: bold;
+}
+header h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 3.6rem;
+	margin-left: 4.5rem;
+	margin-top: 15vh;
+}
+.share {
+	margin-top: 5vh;
+}
+.social {
+	display: block;
+	width: 30px;
+	height: 40px;
+	background: url(../img/social.png) no-repeat;
+}
+.social-fb {
+	background-position: 0 0px;
+}
+.social-in {
+	background-position: 0 -40px;
+}
+.social-db {
+	background-position: 0 -80px;
+}
+.social-bh {
+	background-position: 0 -120px;
+}
+.skills-heading {
+	margin-top: 3.6rem;
+	text-align: center;
+	padding-left: 4.5rem;
+	padding-right: 4.5rem;
+}
+.skills-heading a { 
+	display: inline-block;
+	margin-top: 1.9rem;
+	text-transform: uppercase;
+	color: #41228e;
+	font-weight: bold;
+	margin-bottom: 6.8rem;
+}
+h2 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 2.7rem;
+	font-weight: bold;
+	text-align: center;
+}
+.skills-list, .exp-list, .edu-list {
+	margin-top: 4.5rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.skills-list {
+	justify-content: space-between;
+	text-align: center;
+}
+.skill-image {
+	width: 270px; 
+	height: 246px;
+	background: no-repeat center top / cover;
+}
+.skill-max {
+	background-image: url(../img/skill-max.svg);
+}
+.skill-min {
+	background-image: url(../img/skill-min.svg);
+}
+.skill-middle {
+	background-image: url(../img/skill-middle.svg);
+}
+.skills-list p {
+	position: relative;
+	top: -7.5rem;
+}
+.exp-date, .edu-date {
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.8rem;
+}
+.exp-company, .edu-school {
+	color: rgba(0, 0, 0, 0.4);
+}
+.exp-list {
+	justify-content: space-around;
+	text-align: center;
+	margin-bottom: 2.5rem;
+}
+.exp-image {
+	width: 100px; 
+	height: 100px;
+	display: inline-block;
+	background: no-repeat center center / 130%;
+}
+.exp-max {
+	background-image: url(../img/exp-max.png);
+}
+.exp-min {
+	background-image: url(../img/exp-min.png);
+}
+.exp-middle {
+	background-image: url(../img/exp-middle.png);
+}
+.exp-list p {
+	margin-top: 0.6rem;
+}
+.edu {
+	background: url(../img/edu-bg.png) no-repeat center top / cover;
+	padding-top: 6rem;
+	padding-bottom: 8rem;
+}
+.edu-list li {
+	width: 50%;
+	margin-bottom: 4rem;
+}
+.edu-list li::before {
+	width: 100px;
+	height: 100px;
+	content: '';
+	margin-top: 1rem;
+	float: left;
+	background: url(../img/edu-icon.svg) no-repeat center center / 130%;
+}
+.edu-list p {
+	margin-left: 9rem;
+	margin-top: 0.6rem;
+}

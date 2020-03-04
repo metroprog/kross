@@ -1,0 +1,37 @@
+<svg id="skills3.svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="364" height="332" viewBox="0 0 364 332">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        filter: url(#filter);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #f2fbfd;
+      }
+
+      .cls-3 {
+        fill: #d7f4fa;
+      }
+
+      .cls-4 {
+        fill: #bdecf6;
+      }
+    </style>
+    <filter id="filter" x="767" y="1435" width="364" height="331" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="59" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="6.782"/>
+      <feFlood result="flood" flood-color="#e0f1ff" flood-opacity="0.34"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Rounded_Rectangle_2_copy_9" data-name="Rounded Rectangle 2 copy 9" class="cls-1" d="M834,1435h229c20.95,0,20,.24,20,20v194c0,11.04-.34,9-20,9H834c-19.964,0-20-.56-20-20V1455C814,1435.43,814.036,1435,834,1435Z" transform="translate(-767 -1434)"/>
+  <path id="Rounded_Rectangle_2_copy_13" data-name="Rounded Rectangle 2 copy 13" class="cls-2" d="M814,1587V1454c0-19.57.036-20,20-20h229c20.95,0,20,.24,20,20v134" transform="translate(-767 -1434)"/>
+  <path id="Rectangle_1_copy_8" data-name="Rectangle 1 copy 8" class="cls-3" d="M814,1469s42.292,15,91,15c78.438,0,178-41,178-41v145.03H814V1469Z" transform="translate(-767 -1434)"/>
+  <path id="Rectangle_1_copy_11" data-name="Rectangle 1 copy 11" class="cls-4" d="M814,1475s42.292,14,91,14c78.438,0,178-34,178-34v132.03H814V1475Z" transform="translate(-767 -1434)"/>
+</svg>
