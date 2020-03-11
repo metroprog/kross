@@ -1,0 +1,17 @@
+<svg id="serv3.svg" xmlns="http://www.w3.org/2000/svg" width="53.5" height="38" viewBox="0 0 53.5 38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f3f3f3;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #41228e;
+        stroke-width: 1px;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_6_copy" data-name="Rectangle 6 copy" class="cls-1" y="0.5" width="35" height="35"/>
+  <circle id="Ellipse_6_copy" data-name="Ellipse 6 copy" class="cls-2" cx="34.5" cy="19" r="18.5"/>
+</svg>

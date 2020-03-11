@@ -1,0 +1,16 @@
+<svg id="serv-ux.svg" xmlns="http://www.w3.org/2000/svg" width="49" height="40.22" viewBox="0 0 49 40.22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f3f3f3;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="14" y="3.03" width="35" height="35"/>
+  <path id="Polygon_1_copy" data-name="Polygon 1 copy" class="cls-2" d="M766.01,3235.96l34.977,19.89-34.708,20.35Z" transform="translate(-766 -3235.97)"/>
+</svg>

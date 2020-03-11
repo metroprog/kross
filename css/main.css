@@ -177,3 +177,42 @@ h2 {
 	margin-left: 9rem;
 	margin-top: 0.6rem;
 }
+.serv {
+	margin-top: -3.6rem;
+}
+.serv-description {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+}
+.serv-list {
+	display: flex;
+	margin-top: 4.5rem;
+	text-align: center;
+}
+.serv-list li {
+	padding: 0 2.3rem 3rem;
+	margin: 0 1rem;
+}
+.serv-list li:nth-child(even) {
+	background-color: #41228e;
+	color: #ffffff;
+}
+.serv-title::before {
+	display: block;
+	margin: 4rem auto 2.3rem;
+	width: 50px;
+	height: 50px;
+	content: '';
+}
+.serv-ui::before {
+	background: url(../img/serv-ui.svg) no-repeat center center / 100%;
+}
+.serv-ux::before {
+	background: url(../img/serv-ux.svg) no-repeat center center / 100%;
+}
+.serv-inter::before {
+	background: url(../img/serv-inter.svg) no-repeat center center / 100%;
+}
+.serv-title {
+	margin-bottom: 1.3rem;
+}
