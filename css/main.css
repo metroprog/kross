@@ -186,10 +186,13 @@ h2 {
 }
 .serv-list {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 	margin-top: 4.5rem;
 	text-align: center;
 }
 .serv-list li {
+	width: 30%;
 	padding: 0 2.3rem 3rem;
 	margin: 0 1rem;
 }
@@ -215,4 +218,19 @@ h2 {
 }
 .serv-title {
 	margin-bottom: 1.3rem;
+}
+.portfolio {
+	margin-top: 5.2rem;
+}
+.gallery {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+.col {
+	height:584px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
