@@ -4,6 +4,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+html {
+
+}
 a {
 	text-decoration: none;
 	color: inherit;
@@ -193,7 +196,7 @@ h2 {
 }
 .serv-list li {
 	width: 30%;
-	padding: 0 2.3rem 3rem;
+	padding: 0 2.3rem 3.5rem;
 	margin: 0 1rem;
 }
 .serv-list li:nth-child(even) {
@@ -221,16 +224,37 @@ h2 {
 }
 .portfolio {
 	margin-top: 5.2rem;
+	padding-bottom: 6rem;
 }
 .gallery {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	align-items: flex-start;
+	margin-top: 4.5rem;
 }
 .col {
 	height:584px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+.test {
+	text-align: center;
+	background: #41228e url(../img/test_bg.png) no-repeat center top / cover;
+	color: #ffffff;
+	padding: 5.2rem 8.5rem 3.5rem;
+}
+.quote {
+	font-size: 6rem;
+	margin-top: -4rem;
+	margin-bottom: 1rem;
+}
+.test img {
+	margin-top: 1.8rem;
+}
+.test .job {
+	font-size: 1.1rem;
+	color: rgba(255, 255, 255, 0.4);
+	margin-top: 0.4rem;
 }
