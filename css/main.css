@@ -261,6 +261,31 @@ h2 {
 .comp-list {
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	align-items: center;
 	margin: 6rem 3rem;
+}
+
+
+footer {
+	background-color: #222222;
+	color: #ffffff;
+	padding-top: 3.75rem;
+}
+.contact-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.contact {
+	font-size: 1.125rem;
+	color: rgba(255, 255, 255, 0.4);
+	margin-bottom: 1.5rem;
+}
+.copyright {
+	font-size: 1.125rem;
+	color: rgba(255, 255, 255, 0.4);
+	text-align: center;
+	margin-top: 6rem;
+	padding-bottom: 4rem;
 }
